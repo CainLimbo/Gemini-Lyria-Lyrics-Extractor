@@ -1,0 +1,51 @@
+.lyria-extractor-bar {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #1e1f20;
+  border: 1px solid #8ab4f8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 13px;
+  color: #e3e3e3;
+  z-index: 2147483647;
+}
+
+.lyria-extractor-label {
+  font-weight: 600;
+  color: #8ab4f8;
+  margin-right: 4px;
+  user-select: none;
+}
+
+.lyria-extractor-btn {
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #8ab4f8;
+  color: #131314;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.lyria-extractor-btn:hover {
+  opacity: 0.9;
+}
+
+.lyria-extractor-btn:active {
+  transform: scale(0.96);
+}
+
+.lyria-extractor-btn.secondary {
+  background: transparent;
+  color: #e3e3e3;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
